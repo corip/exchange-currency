@@ -36,8 +36,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter{
 	private JWTService jwtService;
 	
 	private static final String[] AUTH_WHITELIST = {
-			"/change-currency",
-			"/change-currency/update"
+			"",
+			
     };
 	
 	@Override
